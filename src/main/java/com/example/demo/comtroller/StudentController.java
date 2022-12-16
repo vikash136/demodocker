@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/welcome")
 public class StudentController {
 
+    private String name;
     @GetMapping
     public String getmessage(){
         return "welcome docker";
